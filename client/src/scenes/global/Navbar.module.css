@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: whitesmoke;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navhome:hover{
+    cursor: pointer;
+    color: rgb(144, 64, 109);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    z-index: 2;
+}
+
+.icons button {
+    color: black;
+    border: 0;
+}
+
+.icons button:hover{
+    cursor: pointer;
+    color: rgb(144, 64, 109);
+}
+
+.badge {
+    right: 5;
+    top: 5;
+    padding: 0 4px;
+    height: 14px;
+    min-width: 13px;
+    color: white;
+    background-color: red;
+    border: 50%;
+}

@@ -1,0 +1,68 @@
+.position {
+    position: relative;
+}
+
+.position img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.position img:hover {
+    cursor: pointer;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.displayNone {
+    display: none;
+}
+
+.boxContainer {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.boxOne {
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+.boxTwo {
+    display: flex;
+    align-items: center;
+    background-color: rgb(107, 101, 104);
+    border-radius: 5px;
+}
+
+.boxThree {
+    margin-top: 3px;
+}
+
+.category {
+    font-family: "Cardo";
+    color: black;
+}
+
+.prices{
+    font-weight: bold;
+}
+
+.cart {
+    background-color:rgb(107, 101, 104);
+    color: white;
+    border: 0;
+    font-weight: bolder;
+}
+
+.quantity {
+    background-color: rgb(107, 101, 104);
+    color: white;
+    border: 0;
+}

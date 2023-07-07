@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=EB+Garamond&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: auto;
+}
+

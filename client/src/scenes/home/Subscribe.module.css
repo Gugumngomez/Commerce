@@ -1,0 +1,46 @@
+.emailContainer {
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.input {
+    padding: 2px 4px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    width: 75%;
+    background-color: #F2F2F2;
+}
+
+.input input {
+    margin-left: 1;
+    flex: 1;
+    border: 0;
+    padding: 15px;
+}
+
+.div {
+    height: 28;
+    margin: 0.5;
+    border-bottom: 1px solid rgb(144, 64, 109);
+}
+
+.emailContainer button {
+    border: 0;
+    background-color: whitesmoke;
+}
+
+.emailContainer button i {
+    margin-top: 18px;
+    font-size: 40px;
+}
+
+.emailContainer h3 {
+    font-family: "Corda";
+}
+
+.emailContainer h4 {
+    font-family: "Corda";
+}
