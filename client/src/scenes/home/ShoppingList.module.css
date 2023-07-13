@@ -13,24 +13,6 @@
     font-family: sans-serif;
 }
 
-.tabs {
-  display: flex;
-  color: black;
-  margin: 25px;
-  flex-wrap: wrap;
-  
-}
-
-.tab {
-  padding: 10px;
-  cursor: pointer;
-  display: flex;
-}
-
-.tab.active {
-  background-color: #f0f0f0;
-}
-
 .grid {
     margin: 0 auto;
     display: grid;

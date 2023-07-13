@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ShoppingCss from './ShoppingList.module.css'
 import { useDispatch, useSelector } from "react-redux";
+import { Tab, Tabs } from "@mui/material";
 import Item from "../../components/Item";
 import { setItems } from "../../state"
 
@@ -46,38 +47,30 @@ const ShoppingList = () => {
         (item) => item.attributes.category === "bestSellers"
     );
 
+
     return (
         <div className={ShoppingCss.productBox}>
             <h3 className={ShoppingCss.feature}>
                 Our Featured <b>Products</b>
             </h3>
-            <div className={ShoppingCss.productBox}>
-                <div
-                    className={`tab ${value === 'all' ? 'active' : ''}`}
-                    onClick={() => handleChange('all')}
-                >
-                    ALL
-                </div>
-                <div
-                    className={`tab ${value === 'newArrivals' ? 'active' : ''}`}
-                    onClick={() => handleChange('newArrivals')}
-                >
-                    NEW ARRIVALS
-                </div>
-                <div
-                    className={`tab ${value === 'bestSellers' ? 'active' : ''}`}
-                    onClick={() => handleChange('bestSellers')}
-                >
-                    BEST SELLERS
-                </div>
-                <div
-                    className={`tab ${value === 'collaboration' ? 'active' : ''}`}
-                    onClick={() => handleChange('collaboration')}
-                >
-                    COLLABORATION
-                </div>
-                <div className={`indicator ${isNoneMobile ? ShoppingCss.displayBlock : ShoppingCss.displayNone}`}></div>
-            </div>
+            <Tabs
+                className="tabs"
+                onChange={handleChange}
+                value={value}
+                centered
+                indicatorColor="black"
+                TabIndicatorProps={{ sx: { display: isNoneMobile ? "block" : "none" } }}
+                sx={{
+                    "& .MuiTabs-flexContainer": {
+                        flexWrap: "wrap",
+                    },
+                }}
+            >
+                <Tab label="ALL" value="all" />
+                <Tab label="NEW ARRIVALS" value="newArrivals" />
+                <Tab label="BEST SELLERS" value="bestSellers" />
+                <Tab label="COLLABORATION" value="collaboration" />
+            </Tabs>
 
             <div className={ShoppingCss.grid}>
                 {value === "all" && items.map((item) => (

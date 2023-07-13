@@ -1,0 +1,100 @@
+.itemsContainer {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.colContainer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.imagesContainer {
+    flex: 1 1 20%;
+    /* margin: 10px; */
+}
+
+ img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.actions {
+    flex: 1 1 50%;
+    margin-bottom: 40px;
+}
+
+.actionsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.styles {
+    margin: 65px 0 25px 0;
+}
+
+.styles h3 {
+    font-family: 'Quicksand';
+    font-size: 18px;
+}
+
+.itemStyles {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
+
+.itemOne {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding: 2px 5px;
+}
+
+.itemStyles button {
+    border: 0;
+}
+
+.btn {
+    background-color: #22222222;
+    color: black;
+    font-weight: bold;
+    border-radius: 0;
+    min-width: 150px;
+    padding: 10px 40px;
+}
+
+.icns {
+    margin: 20px 0 5px 0;
+    display: flex;
+}
+
+.info {
+    margin: 20px 0;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 20px;
+}
+
+.relatedItems {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.relations {
+    margin: 0 auto;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1.5fr));
+    row-gap: 20px;
+    column-gap: 1.33%;
+}
+
+.relatedItems h3 {
+    font-family: "Cardo";
+}

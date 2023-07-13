@@ -65,7 +65,7 @@ const CartMenu = () => {
                                                 </button>
                                             </div>
                                             {/* price */}
-                                            <h4> ${item.attributes.price}</h4>
+                                            <h4> R{item.attributes.price}</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@ const CartMenu = () => {
                     <div className={CartCss.margin1}>
                         <div className={`${CartCss.flexbox} ${CartCss.margin1}`}>
                             <h4 >SUBTOTAL</h4>
-                            <h4 >${totalPrice}</h4>
+                            <h4 >R{totalPrice}</h4>
                         </div>
                         <button className={CartCss.action}
                             onClick={() => {

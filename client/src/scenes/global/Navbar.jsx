@@ -1,17 +1,18 @@
 import React from 'react'
 import NavCss from './Navbar.module.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { setIsCartOpen } from '../../state';
 
 const Navbar = () => {
     const dispatch = useDispatch();
     const cart = useSelector((state) => state.cart.cart);
+    const navigate = useNavigate();
 
     return (
         <div className={NavCss.container}>
             <div className={NavCss.box}>
-                <div className={NavCss.navhome} onClick={() => Navigate("/")}>
+                <div className={NavCss.navhome} onClick={() => navigate("/")}>
                     BEAUTIQUE
                 </div>
                 <div className={NavCss.icons}>

@@ -44,7 +44,7 @@ h4 {
 .itemremove {
     display: flex;
     align-items: center;
-    border: 1.5px solid black;
+    border:0;
 }
 
 .shoppingbag {
@@ -76,6 +76,11 @@ h4 {
     margin-bottom: 5px;
 }
 
+.mb button {
+    border: 0;
+    background-color: white;
+}
+
 
 .margin {
     margin: 15px 0;
@@ -102,4 +107,8 @@ h4 {
 .divider {
     border-top: 1px solid black;
     margin: 1rem 0;
+}
+
+.name i {
+    border: 0;
 }

@@ -7,8 +7,6 @@ import {
 } from 'react-router-dom';
 import Home from "./scenes/home/Home"; 
 import ItemDetails from "./scenes/itemDetails/ItemDetails";
-// import Checkout from "./scenes/checkout/Checkout";
-// import Confirmation from "./scenes/checkout/Confirmation";
 import Navbar from "./scenes/global/Navbar";
 import CartMenu from "./scenes/global/CartMenu";
 import Footer from "./scenes/global/Footer";
@@ -37,9 +35,7 @@ function App() {
         we start from the home page before we scroll to
         other pages */}
         <Route path="/" element={<Home />} />
-        <Route path="item/:itemID" element={<ItemDetails />} />
-        {/* <Route path="checkout" element={<Checkout />} /> */}
-        {/* <Route path="checkout/success" element={<Confirmation />} /> */}
+        <Route path="item/:itemId" element={<ItemDetails />} />
       </Routes>
       <CartMenu />
       <Footer />

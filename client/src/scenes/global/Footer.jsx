@@ -31,7 +31,7 @@ const Footer = () => {
             <div className={FooterCss.address}>
                 <h4>Contact us</h4>
                 <h5>28 Birdie Street Johanesburg Gauteng 2001</h5>
-                <h5>kontourm@gmail.com</h5>
+                <h5>M@beautique.co.za</h5>
                 <h5>0712963874</h5>
             </div>
         </div>
