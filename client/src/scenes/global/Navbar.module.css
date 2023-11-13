@@ -19,6 +19,10 @@
     align-items: center;
 }
 
+.navhome {
+    font-size: 1.8rem;
+}
+
 .navhome:hover{
     cursor: pointer;
     color: rgb(144, 64, 109);
@@ -34,6 +38,8 @@
 .icons button {
     color: black;
     border: 0;
+    background-color: transparent;
+    font-size: 1.1rem;
 }
 
 .icons button:hover{

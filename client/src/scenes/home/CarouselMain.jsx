@@ -36,7 +36,7 @@ const CarouselMain = () => {
     >
       {Object.values(heroTextureImports).map((texture, index) => (
         <div key={`carousel-image-${index}`}>
-          <img src={texture} alt={`carousel-${index}`} />
+          <img className={CarouselCss.image} src={texture} alt={`carousel-${index}`} />
           <div
             className={CarouselCss.textContainer}
             style={{

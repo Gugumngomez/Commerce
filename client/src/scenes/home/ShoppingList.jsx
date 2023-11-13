@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Tab, Tabs } from "@mui/material";
 import Item from "../../components/Item";
 import { setItems } from "../../state"
+import products from "../../Data";
 
 /* eslint-disable react-hooks/exhaustive-deps */
 
@@ -21,30 +22,20 @@ const ShoppingList = () => {
     // async is used to call the back end which is strapi
     // populate images helps you get images from strapi
     useEffect(() => {
-        async function getItems() {
-            const items = await fetch(
-                "http://localhost:1337/api/items?populate=image",
-                { method: "GET" }
-            );
-            const itemsJson = await items.json();
-            dispatch(setItems(itemsJson.data));
+    // Dispatch the setItems action with the products data
+    dispatch(setItems(products));
+  }, [dispatch]);
 
-            setItems(itemsJson);
-        }
-
-        getItems();
-    }, [value]);
-
-    const collaboratedItems = items.filter(
-        (item) => item.attributes.category === "collaboration"
+    const collaboratedItems = products.filter(
+        (product) => product.category === "collaboration"
     );
 
-    const newArrivalsItems = items.filter(
-        (item) => item.attributes.category === "newArrivals"
+    const newArrivalsItems = products.filter(
+        (product) => product.category === "newArrivals"
     );
 
-    const bestSellersItems = items.filter(
-        (item) => item.attributes.category === "bestSellers"
+    const bestSellersItems = products.filter(
+        (product) => product.category === "bestSellers"
     );
 
 

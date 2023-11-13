@@ -35,7 +35,7 @@ function App() {
         we start from the home page before we scroll to
         other pages */}
         <Route path="/" element={<Home />} />
-        <Route path="item/:itemId" element={<ItemDetails />} />
+        {/* <Route path="/item/:itemId" element={<ItemDetails />} /> */}
       </Routes>
       <CartMenu />
       <Footer />
