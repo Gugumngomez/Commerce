@@ -3,9 +3,10 @@ import {
   BrowserRouter,
   Routes,
   Route,
-  useLocation
+  useLocation,
+  Link
 } from 'react-router-dom';
-import Home from "./scenes/home/Home"; 
+import Home from "./scenes/home/Home";
 import ItemDetails from "./scenes/itemDetails/ItemDetails";
 import Navbar from "./scenes/global/Navbar";
 import CartMenu from "./scenes/global/CartMenu";
@@ -27,18 +28,18 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Navbar />
-      <ScrollToTop />
-      {/* This is where we create our routes */}
-      <Routes >
-        {/* this is the route to our home page
+        <Navbar />
+        <ScrollToTop />
+        {/* This is where we create our routes */}
+        <Routes >
+          {/* this is the route to our home page
         we start from the home page before we scroll to
         other pages */}
-        <Route path="/" element={<Home />} />
-        {/* <Route path="/item/:itemId" element={<ItemDetails />} /> */}
-      </Routes>
-      <CartMenu />
-      <Footer />
+          <Route path="/" element={<Home />} />
+          <Route path="/item/:itemId" element={<ItemDetails />} />
+        </Routes>
+        <CartMenu />
+        <Footer />
       </BrowserRouter>
     </div>
   );

@@ -22,6 +22,7 @@ import twoPieceImage from './img/2piece.jpg';
 
 const products = [
     {
+        id: 1,
         image: fluffyCoatImage,
         name: 'Fluffy Winter Jacket',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -30,6 +31,7 @@ const products = [
         category: 'collaboration',
     },
     {
+        id: 2,
         image: beigeHoodieImage,
         name: 'Beige Hoodie',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -38,6 +40,7 @@ const products = [
         category: 'collaboration',
     },
     {
+        id: 3,
         image: piecewhiteImage,
         name: 'White 3 Piece',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -46,6 +49,7 @@ const products = [
         category: 'bestSellers',
     },
     {
+        id: 4,
         image: bombaJacketImage,
         name: 'Yellow Bomba Jacket',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -54,6 +58,7 @@ const products = [
         category: 'newArrivals',
     },
     {
+        id: 5,
         image: corduroyImage,
         name: 'Brown Corduroy Jumpsuit',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -62,6 +67,7 @@ const products = [
         category: 'bestSellers',
     },
     {
+        id: 6,
         image: goldHeelsImage,
         name: 'Gold Block Heels',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -70,6 +76,7 @@ const products = [
         category: 'bestSellers',
     },
     {
+        id: 7,
         image: herasweaterImage,
         name: 'Hera Oversized T-shirt',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -78,6 +85,7 @@ const products = [
         category: 'bestSellers',
     },
     {
+        id: 8,
         image: greyTopImage,
         name: 'Grey Top',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -86,6 +94,7 @@ const products = [
         category: 'newArrivals',
     },
     {
+        id: 9,
         image: signatureImage,
         name: 'Signature Blazer',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -94,6 +103,7 @@ const products = [
         category: 'bestSellers',
     },
     {
+        id: 10,
         image: leatherJacketImage,
         name: 'Leather Jacket',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -102,6 +112,7 @@ const products = [
         category: 'collaboration',
     },
     {
+        id: 11,
         image: whitePantsImage,
         name: 'White Vintage Pants',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -110,6 +121,7 @@ const products = [
         category: 'collaboration',
     },
     {
+        id: 12,
         image: redPieceImage,
         name: ' 2 Piece Suit - Red',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -118,6 +130,7 @@ const products = [
         category: 'newArrivals',
     },
     {
+        id: 13,
         image: stripeBlouseImage,
         name: 'Summer Blouse',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -126,6 +139,7 @@ const products = [
         category: 'bestSellers',
     },
     {
+        id: 14,
         image: kingTeeImage,
         name: 'King T-Shirt',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -134,6 +148,7 @@ const products = [
         category: 'bestSellers',
     },
     {
+        id: 15,
         image: sparckleHeelsImage,
         name: 'Heels With Sparckles',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -142,6 +157,7 @@ const products = [
         category: 'collaboration',
     },
     {
+        id: 16,
         image: denimPieceImage,
         name: 'Denim Puffy Jacket and Pants',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -150,6 +166,7 @@ const products = [
         category: 'newArrivals',
     },
     {
+        id: 17,
         image: strapHeelsImage,
         name: 'Black Strapped Heels',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -158,6 +175,7 @@ const products = [
         category: 'collaboration',
     },
     {
+        id: 18,
         image: yellowHoodieImage,
         name: 'Yellow Hoodie',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -166,6 +184,7 @@ const products = [
         category: 'newArrivals',
     },
     {
+        id: 19,
         image: stripeShirtImage,
         name: 'Stripe T-Shirt',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -174,6 +193,7 @@ const products = [
         category: 'collaboration',
     },
     {
+        id: 20,
         image: summerDressImage,
         name: 'Grey Summer Dress',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -182,6 +202,7 @@ const products = [
         category: 'newArrivals',
     },
     {
+        id: 21,
         image: twoPieceImage,
         name: 'Crop & Long Skirt ',
         shortDescription: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',

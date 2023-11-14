@@ -68,7 +68,7 @@ const CartMenu = () => {
                                                     <i className="fa-solid fa-xmark"></i>
                                                 </button>
                                             </div>
-                                            <h4>{item.shortDescription}</h4> {/* Use product.shortDescription from Data.js */}
+                                            <h5>{item.shortDescription}</h5> {/* Use product.shortDescription from Data.js */}
 
 
                                             {/* Amount */}

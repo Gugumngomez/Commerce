@@ -7,7 +7,7 @@ const Footer = () => {
         <div className={FooterCss.insideContainer}>
             <div className={FooterCss.containerBox}>
                 <h4>BEAUTIQUE</h4>
-                <div>
+                <div className={FooterCss.paragraph}>
                     Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -15,14 +15,14 @@ const Footer = () => {
                     ea commodo consequat.
                 </div>
             </div>
-            <div>
+            <div className={FooterCss.footer}>
                 <h4>About Us</h4>
                 <h5>Careers</h5>
                 <h5>Our Stores</h5>
                 <h5>Terms & Conditions</h5>
                 <h5>Privacy Policy</h5>
             </div>
-            <div>
+            <div className={FooterCss.footer}>
                 <h4>Help Center</h4>
                 <h5>Track Your Order</h5>
                 <h5>Corporate & Bulk Purchasing</h5>

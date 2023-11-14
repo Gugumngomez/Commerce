@@ -18,9 +18,22 @@
     width: clamp(20%, 30%, 40%);
 }
 
+.containerBox .paragraph {
+    font-size: 1.2rem;
+    font-family: 'Assistant';
+    font-weight: 500;
+}
+
 .containerBox h4 {
     font-weight: bold;
     margin-bottom: 30px;
+    color: rgb(144, 64, 109);
+    font-size: 1.5rem;
+}
+
+.footer h4, .address h4 {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
     color: rgb(144, 64, 109);
 }
 
@@ -28,16 +41,8 @@
     width: clamp(20%, 25%, 30%);
 }
 
-.address h5 {
-    font-size: 20px;
-}
-
-.insideContainer h4 {
-    font-family: "EB Garamond";
-    font-size: 25px;
-}
-
-.insideContainer h5 {
-    font-family: sans-serif;
-    font-size: 15px;
+.footer h5, .address h5 {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight: bold;
 }

@@ -42,9 +42,13 @@ h3 {
 }
 
 h4 {
-    font-size: 20px;
-    font-weight: bold;
-    /* font-family: "EB Garamond"; */
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 22px;
+    font-family: 'Assistant';
+    font-weight: lighter;
 }
 
 .itemremove {
@@ -66,17 +70,10 @@ h4 {
 }
 
 .images {
-    width: 123px;
-    height: 164px;
+    width: 200px;
+    height: 400px;
 }
 
-.flex1 {
-    flex: 1 1 40%;
-}
-
-.flex2 {
-    flex: 1 1 60%;
-}
 
 .mb {
     margin-bottom: 5px;
@@ -103,6 +100,7 @@ h4 {
     min-width: 100%;
     padding: 20px 40px;
     margin: 20px 0;
+    border: 0;
 }
 
 .shoppingbag button {

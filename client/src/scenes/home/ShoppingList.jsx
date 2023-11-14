@@ -45,7 +45,7 @@ const ShoppingList = () => {
                 Our Featured <b>Products</b>
             </h3>
             <Tabs
-                className="tabs"
+                className={ShoppingCss.tabs}
                 onChange={handleChange}
                 value={value}
                 centered
@@ -54,6 +54,17 @@ const ShoppingList = () => {
                 sx={{
                     "& .MuiTabs-flexContainer": {
                         flexWrap: "wrap",
+                    },
+                    "& .MuiTab-root": {
+                        // Styles for each tab
+                        fontSize: "1rem",
+                        fontWeight: 500,
+                        padding: "10px 20px",
+                        color: "black",
+                        "&.Mui-selected": {
+                            // Styles for the selected tab
+                            color: "rgb(144, 64, 109)", // Change to your desired color
+                        },
                     },
                 }}
             >
