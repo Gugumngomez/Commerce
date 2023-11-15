@@ -4,13 +4,13 @@ import {
   Routes,
   Route,
   useLocation,
-  Link
 } from 'react-router-dom';
 import Home from "./scenes/home/Home";
 import ItemDetails from "./scenes/itemDetails/ItemDetails";
 import Navbar from "./scenes/global/Navbar";
 import CartMenu from "./scenes/global/CartMenu";
 import Footer from "./scenes/global/Footer";
+import Checkout from "./scenes/checkout/Checkout";
 
 // starting at the top of a new page
 const ScrollToTop = () => {
@@ -37,6 +37,8 @@ function App() {
         other pages */}
           <Route path="/" element={<Home />} />
           <Route path="/item/:itemId" element={<ItemDetails />} />
+          <Route path="checkout" element={<Checkout />} />
+          {/* <Route path="checkout/success" element={<Confirmation />} /> */}
         </Routes>
         <CartMenu />
         <Footer />
